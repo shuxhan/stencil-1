@@ -2834,6 +2834,29 @@ button.submita:hover {
     .chanping-img-show > div {
         width: 100%;
     }
+    .sigt .sigt-ul {
+        display: flex;
+        flex: 1;
+        justify-content: space-between;
+    }
+    .sigt .sigt-ul li {
+        width: 180px;
+    }
+}
+@media (max-width: 450px) {
+    .sigt .sigt-ul li {
+        width: 50%;
+        margin: 0;
+        padding: 0;
+    }
+
+    .sigt-li-list {
+        transform: scale(0.7);
+        -webkit-transform: scale(0.7);
+        -moz-transform: scale(0.7);
+        -ms-transform: scale(0.7);
+        -o-transform: scale(0.7);
+    }
 }
 
 @media (max-width: 320px) {

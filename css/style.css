@@ -136,7 +136,32 @@ hr {
   position: absolute;
   top: 120px;
 }
+@media(min-width:1360px){
+  .nav-list ul li:hover .submenu {
+    display: block;
+  }
+  .nav-list ul li {
+    line-height: 100px;
+    padding-left: 5px 0;
+  }
+}
 
+@media (max-width:1360px) {
+  .nav-list ul li{
+    min-height: 34px !important;
+    line-height: 34px !important;
+    padding-left: 10px;
+    border-bottom: 1px solid #eee;
+    box-sizing: border-box;
+  }
+  .side_nav1 {
+    height: 20px;
+    line-height: 20px;
+  }
+}
+.submenu {
+  display: none;
+}
 .home-banner {
   max-width: 100%;
   height: auto;
@@ -146,7 +171,7 @@ hr {
 }
 
 .home-banner .swiper-container {
-    max-height: 650px;
+  max-height: 650px;
 }
 
 .home-banner .home-banner-img {
@@ -159,7 +184,7 @@ hr {
   position: absolute;
   top: 0;
   left: 5%;
-  z-index: 1;
+  z-index: 2;
 }
 .home-banner .home-banner-logo img {
   max-height: 150px;
@@ -214,10 +239,11 @@ hr {
 
 .nav-list ul li {
   float: left;
-  line-height: 100px;
+  /* line-height: 100px; */
   width: 100px;
   text-align: center;
 }
+
 
 .nav-list ul li a {
   display: block;
@@ -231,6 +257,8 @@ hr {
 .nav-list > ul > li {
   position: relative;
 }
+
+
 
 .nav-list > ul > li > ul {
   position: absolute;
@@ -714,7 +742,8 @@ hr {
 
 .about-footer ul {
   color: #fff;
-  width: 100%;
+  width: 96%;
+  margin: 0 auto;
   height: 115px;
   overflow: hidden;
 }
@@ -1145,6 +1174,10 @@ footer {
 .footer-nav-detail ul li a:hover {
   color: #efba02;
 }
+
+.nav-list ul li a.inmenu_1 {
+  color: #efba02;
+}
 .footlinks {
   background: #333;
   font-size: 14px;
@@ -1234,7 +1267,7 @@ footer {
 }
 
 .table-nav {
-  max-width: 1400px;
+  max-width: 1300px;
   margin: 0 auto;
   height: 100%;
   position: relative;
@@ -1256,7 +1289,9 @@ footer {
   right: 0;
   padding-right: 10px;
   z-index: 9;
+ 
 }
+
 
 .page-nav ul {
   font-size: 15px;
@@ -1381,6 +1416,8 @@ article .company-profile p {
 }
 .light-en-bread {
   font-size: 15px;
+  display: flex;
+  padding: 0 14px;
 }
 
 .light-en-bread p span img {
@@ -1426,14 +1463,26 @@ article .company-profile p {
   width: 100%;
   height: 280px;
   overflow: hidden;
+  position: relative;
 }
 
 .light-en-main-item-detail > a:hover {
   cursor: pointer;
 }
-
+.light-en-main-item-img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
 .light-en-main-item-img img {
   width: 95%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  
 }
 
 .light-en-main-item-text {
@@ -2419,7 +2468,7 @@ button.submita:hover {
   }
 
   .about-pic-light-text {
-    width: 43%;
+    width: 53%;
     top: -7px;
   }
   .about-footer-wrap {
@@ -3508,4 +3557,68 @@ button.submita:hover {
   -moz-transform: scale(1.2);
   -ms-transform: scale(1.2);
   -o-transform: scale(1.2);
+}
+
+.pages {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 50px;
+  width: 100%;
+  font-size: 18px;
+  height: 60px;
+}
+.pages span {
+  opacity: 0.4;
+}
+.pages a,
+.pages span {
+  font-size: 14px;
+  margin: 10px;
+  transition: all 0.3s ease;
+  box-sizing: border-box;
+  border: 1px solid #f1f1f1;
+  height: 50px;
+  width: 50px;
+  color: #000002;
+  font-weight: 700;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.pages span.ctxt {
+  opacity: 1;
+  border: none;
+  background: #efba02;
+  color: #fff;
+}
+
+.pages a:hover {
+  background-color: #efba02;
+  color: #fff;
+}
+/* .page-header + .swiper-container {
+  height: 700px;
+} */
+@media (max-width:550px) {
+  .about-pic-light-img img {
+    width: 100%;
+  }
+  .about-pic-light-img {
+    width: 27%;
+    margin-top: 0;
+  }
+  .about-pic-light-text {
+    width: 66%;
+  }
+  .about-main-right ul li a > div {
+    left: 17px;
+  }
+  .about-footer-item-title {
+    font-size: 150%;
+  }
+  .about-footer-item > p {
+    font-size: 80%;
+  }
 }

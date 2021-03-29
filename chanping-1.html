@@ -1,321 +1,274 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>产品名称</title>
-    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/style.css" />
     <script src="./js/jquery.min.js"></script>
-</head>
-<body>
-
+  </head>
+  <body>
     <div class="logo-1360">
-        <div id="shadow" class="shadow"></div>
-        <a class="logo-1360-menu-wrap" id="logoMenuWrap">
-            <span class="logo-1360-menu"></span>
-        </a>
+      <div id="shadow" class="shadow"></div>
+      <a class="logo-1360-menu-wrap" id="logoMenuWrap">
+        <span class="logo-1360-menu"></span>
+      </a>
 
-        <a class="logo-1360-a" href="./index.html">
-            <img src="./image/logo.png" alt="logo">
-        </a>
+      <a class="logo-1360-a" href="./index.html">
+        <img src="./image/logo.png" alt="logo" />
+      </a>
     </div>
 
     <header class="page-header">
-        <div class="home-banner">
-          
-  
-          <div class="home-banner-logo">
-            <div class="logo-wrap">
-              <img src="./image/logo.png" alt="logo" />
+      <div class="home-banner">
+        <div class="home-banner-logo">
+          <div class="logo-wrap">
+            <img src="./image/logo.png" alt="logo" />
+          </div>
+        </div>
+
+        <nav class="logo-1360-menu-list" id="logoMenuList">
+          <div class="nav" id="navson">
+            <div class="nav-main">
+              <ul>
+                <li>
+                  <div class="nav-list">
+                    <ul>
+                      <li><a href="http://www.m399.yiqibao.com/" class="inmenu">首页</a></li>
+                      <li><a href="http://www.m399.yiqibao.com/about-us" class="inmenu">关于我们</a></li>
+                      <li><a href="http://www.m399.yiqibao.com/products" class="inmenu_1">公司产品</a>
+                        <ul class="submenu">
+                          <li class="side_nav1" id="cat1"><a href="http://www.m399.yiqibao.com/sangnazhengqishebei-1">城市照明</a></li>
+                          <li class="side_nav1" id="cat2"><a href="http://www.m399.yiqibao.com/zhongwushuishebei-1">景观照明</a></li>
+                          <li class="side_nav1" id="cat3"><a href="http://www.m399.yiqibao.com/dilishiwushuichulishebei-1">市政照明</a></li>
+                          <li class="side_nav1" id="cat4"><a href="http://www.m399.yiqibao.com/bridgelighting-1">桥梁照明</a></li>
+                          <li class="side_nav1" id="cat5"><a href="http://www.m399.yiqibao.com/ctlighting-1">文旅照明</a></li>
+                          <li class="side_nav1" id="cat6"><a href="http://www.m399.yiqibao.com/commerciallighting-1">商业照明</a></li>
+                        </ul>
+                      </li>
+                      <li><a href="http://www.m399.yiqibao.com/newslist-1" class="inmenu">新闻动态</a></li>
+                      <li><a href="http://www.m399.yiqibao.com/industrylist-1" class="inmenu">行业知识</a></li>
+                      <li><a href="http://www.m399.yiqibao.com/contact-us" class="inmenu">联系我们</a></li>
+                      <li><a href="http://www.m399.yiqibao.com/inquiry" class="inmenu">留言板</a></li>
+    
+                    </ul>
+                  </div>
+                </li>
+
+                <li>
+                  <div class="nav-search">
+                    <input class="search-input" placeholder="请输入关键字" type="text" />
+                    <span class="icon-search"><img src="./image/search.png" alt="搜索" /></span>
+                  </div>
+                </li>
+              </ul>
             </div>
           </div>
-  
-          <nav class="logo-1360-menu-list" id="logoMenuList">
-            <div class="nav" id="navson">
-              <div class="nav-main">
-                <ul>
-                  <li>
-                    <div class="nav-list">
-                      <ul>
-                        <li class="logo-list-item li1">
-                            <a href="./index.html">首页</a>
-                        </li>
-  
-                        <li class="logo-list-item li2" id="logoListItem1">
-                            <a href="./about.html" class="active">关于我们</a>
-                        </li>
-  
-                        <li class="logo-list-item li3" id="logoListItem2">
-                            <a href="./light-en.html">工程服务</a>
-                            <span class="menu-drop" id="menuWrap2">
-                              <i class="menu-wrap-down"></i>
-                              <i class="menu-wrap-up"></i>
-                            </span>
-                          <ul class="logomenu ul3" id="logomenu2">
-                            <li class="logo-list-item-2"><a href="">城市照明</a></li>
-                            <li class="logo-list-item-2"><a href="">景观照明</a></li>
-                            <li class="logo-list-item-2"><a href="">市政照明</a></li>
-                            <li class="logo-list-item-2"><a href="">桥梁照明</a></li>
-                            <li class="logo-list-item-2"><a href="">文旅照明</a></li>
-                            <li class="logo-list-item-2"><a href="">商业照明</a></li>
-                          </ul>
-                        </li>
-  
-                        <li class="logo-list-item li5" id="logoListItem3">
-                            <a href="./news.html">新闻中心</a>
-                        </li>
-  
-                        <li class="logo-list-item li7" id="logoListItem4">
-                            <a href="./contact-us.html">联系我们</a>
-                            <span class="menu-drop" id="menuWrap4">
-                              <i class="menu-wrap-down"></i>
-                              <i class="menu-wrap-up"></i>
-                            </span>
-                          <ul class="logomenu ul7" id="logomenu4">
-                            <li class="logo-list-item-2"><a href="./message.html">在线留言</a></li>
-                          </ul>
-                        </li>
-                      </ul>
-                    </div>
-                  </li>
-  
-                  <li>
-                    <div class="nav-search">
-                      <input class="search-input" placeholder="请输入关键字" type="text" />
-                      <span class="icon-search"><img src="./image/search.png" alt="搜索" /></span>
-                    </div>
-                  </li>
-                </ul>
-              </div>
-            </div>
-          </nav>
-        </div>
-      </header>
-  
-      <div>
-        <img style="width: 100%;" src="./image/page-about.jpg" alt="背景图" />
+        </nav>
       </div>
+    </header>
+
+    <div>
+      <img style="width: 100%" src="./image/page-about.jpg" alt="背景图" />
+    </div>
 
     <div class="page-main light-wrap">
-        <div class="light-en">
-            <div class="light-en-bread">
-                <p>
-                    <span>
-                        <img src="./image/light-home-icon.png" alt="home-icon">
-                    </span>
-                    <span>
-                        <a href="./light-en.html">工程服务</a>
-                    </span>
-                    <span>&nbsp;&gt;&nbsp;</span>
-                    <span>
-                        <a href="./light-city.html">城市照明</a>
-                    </span>
-
-                    
-                    
-                </p>
-            </div>
-            <div class="light-en-main">
-                <div class="chanping-img-show">
-                    <div class="chanping-main">
-                        <div class="chanping-main-img">
-                            <img src="./image/chanping-1.jpg" alt="产品名称">
-                        </div>
-                    </div>
-
-                    <div class="chanping-main-text">
-                        <div class="chanping-main-text-detail">
-                            <h1>产品名称</h1>
-                            <p>型号：NBGXXX</p>
-                            <p>光源：NG3456</p>
-                            <p>开孔尺寸：34567</p>
-                            <p>旋转角度：任意方向45度</p>
-                            <p>材质：铝合金。</p>
-                            <p>特性：铝型材边框，简洁大方，内置高性能电子变压器，可任意角度调节投射方向。</p>
-                            <p>应用场所：本产品可广泛使用于商业店铺。</p>
-                            <a href="#inquiry">发送询盘</a>
-                        </div>
-                    </div>
-                </div>
-                
-                <div class="chanping-detail">
-                    <h2>
-                        <span>详情介绍</span>
-                    </h2>
-                    <article>
-                        <p>详情介绍详情介绍详情介绍详情介绍详情介绍详情介绍详情介绍详情介绍详情介绍详情介绍详情介绍详情介绍详情介绍详情介绍详情介绍详情介绍详情介绍详情介绍详情介绍详情介绍详情介绍详情介绍详情介绍详情介绍详情介绍详情介绍详情介绍详情介绍详情介绍详情介绍详情介绍详情介绍详情介绍详情介绍详情介绍详情介绍详情介绍详情介绍详情介绍详情介绍详情介绍详情介绍详情介绍详情介绍详情介绍详情介绍详情介绍详情介绍详情介绍详情介绍详情介绍详情介绍详情介绍详情介绍详情介绍详情介绍详情介绍详情介绍详情介绍详情介绍详情介绍详情介绍详情介绍详情介绍详情介绍详情介绍详情介绍详情介绍详情介绍详情介绍详情介绍详情介绍详情介绍详情介绍详情介绍详情介绍详情介绍详情介绍详情介绍详情介绍详情介绍详情介绍详情介绍详情介绍详情介绍详情介绍详情介绍详情介绍详情介绍详情介绍详情介绍详情介绍详情介绍详情介绍详情介绍详情介绍详情介绍详情介绍详情介绍详情介绍详情介绍详情介绍详情介绍详情介绍详情介绍详情介绍详情介绍详情介绍详情介绍详情介绍详情介绍。
-
-                        </p>
-                        <div class="chanping-article-img">
-                            <img src="./image/chanping-article.jpg" alt="文章详情">
-                        </div>
-                    </article>
-                </div>
-
-                <div class="chanping-detail">
-                    <h2>
-                        <span>相关产品</span>
-                    </h2>
-                    <div class="light-en-main">
-
-                        <ul>
-                            <li class="light-en-main-item" id="lightEnMainItem">
-                                <div class="light-en-main-item-detail">
-                                    <a href="./chanping-1.html">
-                                        <div class="light-en-main-item-img">
-                                            <img src="./image/chanping-1.jpg" alt="产品名称">
-                                        </div>
-                                        
-                                        <div class="light-en-main-item-text">
-                                            <a>产品名称</a>
-                                        </div>
-                                    </a>
-                                </div>
-                            </li>
-        
-                            <li class="light-en-main-item" id="lightEnMainItem">
-                                <div class="light-en-main-item-detail">
-                                    <a href="./chanping-1.html">
-                                        <div class="light-en-main-item-img">
-                                            <img src="./image/chanping-1.jpg" alt="产品名称">
-                                        </div>
-                                        
-                                        <div class="light-en-main-item-text">
-                                            <a>产品名称</a>
-                                        </div>
-                                    </a>
-                                </div>
-                            </li>
-        
-                            <li class="light-en-main-item" id="lightEnMainItem">
-                                <div class="light-en-main-item-detail">
-                                    <a href="./chanping-1.html">
-                                        <div class="light-en-main-item-img">
-                                            <img src="./image/chanping-1.jpg" alt="产品名称">
-                                        </div>
-                                        
-                                        <div class="light-en-main-item-text">
-                                            <a>产品名称</a>
-                                        </div>
-                                    </a>
-                                </div>
-                            </li>
-        
-                            <li class="light-en-main-item" id="lightEnMainItem">
-                                <div class="light-en-main-item-detail">
-                                    <a href="./chanping-1.html">
-                                        <div class="light-en-main-item-img">
-                                            <img src="./image/chanping-1.jpg" alt="产品名称">
-                                        </div>
-                                        
-                                        <div class="light-en-main-item-text">
-                                            <a>产品名称</a>
-                                        </div>
-                                    </a>
-                                </div>
-                            </li>
-        
-                            
-            
-                        </ul>
-                    </div>
-                    
-                </div>
-
-                <div class="chanping-detail" id="inquiry">
-                    <h2>
-                        <span>发送询盘</span>
-                    </h2>
-
-                    <div class="message-main">
-                        <script src="./js/feedback.js"></script>
-                    </div>
-                    
-                </div>
-
-                <hr>
-              
-                <div class="chanping-article-turnpage">
-                    <div class="chanping-article-turnpage-main">
-                        <div class="turnpage-main-prev">
-                            <span>上一个：</span>
-                            <a href="./chanping-1.html">产品名称</a>
-                        </div>
-                        <div class="turnpage-main-next">
-                            <span>下一个：</span>
-                            <a href="./chanping-1.html">产品名称</a>
-                        </div>
-                    </div>
-                </div>
-
-            </div>
+      <div class="light-en">
+        <div class="light-en-bread">
+          <p>
+            <span>
+              <img src="./image/light-home-icon.png" alt="home-icon" />
+            </span>
+            <span>
+              <a href="./light-en.html">工程服务</a>
+            </span>
+            <span>&nbsp;&gt;&nbsp;</span>
+            <span>
+              <a href="./light-city.html">城市照明</a>
+            </span>
+          </p>
         </div>
+        <div class="light-en-main">
+          <div class="chanping-img-show">
+            <div class="chanping-main">
+              <div class="chanping-main-img">
+                <img src="./image/chanping-1.jpg" alt="产品名称" />
+              </div>
+            </div>
+
+            <div class="chanping-main-text">
+              <div class="chanping-main-text-detail">
+                <h1>产品名称</h1>
+                <p>型号：NBGXXX</p>
+                <p>光源：NG3456</p>
+                <p>开孔尺寸：34567</p>
+                <p>旋转角度：任意方向45度</p>
+                <p>材质：铝合金。</p>
+                <p>特性：铝型材边框，简洁大方，内置高性能电子变压器，可任意角度调节投射方向。</p>
+                <p>应用场所：本产品可广泛使用于商业店铺。</p>
+                <a href="#inquiry">发送询盘</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="chanping-detail">
+            <h2>
+              <span>详情介绍</span>
+            </h2>
+            <article>
+              <p>
+                详情介绍详情介绍详情介绍详情介绍详情介绍详情介绍详情介绍详情介绍详情介绍详情介绍详情介绍详情介绍详情介绍详情介绍详情介绍详情介绍详情介绍详情介绍详情介绍详情介绍详情介绍详情介绍详情介绍详情介绍详情介绍详情介绍详情介绍详情介绍详情介绍详情介绍详情介绍详情介绍详情介绍详情介绍详情介绍详情介绍详情介绍详情介绍详情介绍详情介绍详情介绍详情介绍详情介绍详情介绍详情介绍详情介绍详情介绍详情介绍详情介绍详情介绍详情介绍详情介绍详情介绍详情介绍详情介绍详情介绍详情介绍详情介绍详情介绍详情介绍详情介绍详情介绍详情介绍详情介绍详情介绍详情介绍详情介绍详情介绍详情介绍详情介绍详情介绍详情介绍详情介绍详情介绍详情介绍详情介绍详情介绍详情介绍详情介绍详情介绍详情介绍详情介绍详情介绍详情介绍详情介绍详情介绍详情介绍详情介绍详情介绍详情介绍详情介绍详情介绍详情介绍详情介绍详情介绍详情介绍详情介绍详情介绍详情介绍详情介绍详情介绍详情介绍详情介绍详情介绍详情介绍详情介绍详情介绍详情介绍详情介绍详情介绍详情介绍。
+              </p>
+              <div class="chanping-article-img">
+                <img src="./image/chanping-article.jpg" alt="文章详情" />
+              </div>
+            </article>
+          </div>
+
+          <div class="chanping-detail">
+            <h2>
+              <span>相关产品</span>
+            </h2>
+            <div class="light-en-main">
+              <ul>
+                <li class="light-en-main-item" id="lightEnMainItem">
+                  <div class="light-en-main-item-detail">
+                    <a href="./chanping-1.html">
+                      <div class="light-en-main-item-img">
+                        <img src="./image/chanping-1.jpg" alt="产品名称" />
+                      </div>
+
+                      <div class="light-en-main-item-text">
+                        <a>产品名称</a>
+                      </div>
+                    </a>
+                  </div>
+                </li>
+
+                <li class="light-en-main-item" id="lightEnMainItem">
+                  <div class="light-en-main-item-detail">
+                    <a href="./chanping-1.html">
+                      <div class="light-en-main-item-img">
+                        <img src="./image/chanping-1.jpg" alt="产品名称" />
+                      </div>
+
+                      <div class="light-en-main-item-text">
+                        <a>产品名称</a>
+                      </div>
+                    </a>
+                  </div>
+                </li>
+
+                <li class="light-en-main-item" id="lightEnMainItem">
+                  <div class="light-en-main-item-detail">
+                    <a href="./chanping-1.html">
+                      <div class="light-en-main-item-img">
+                        <img src="./image/chanping-1.jpg" alt="产品名称" />
+                      </div>
+
+                      <div class="light-en-main-item-text">
+                        <a>产品名称</a>
+                      </div>
+                    </a>
+                  </div>
+                </li>
+
+                <li class="light-en-main-item" id="lightEnMainItem">
+                  <div class="light-en-main-item-detail">
+                    <a href="./chanping-1.html">
+                      <div class="light-en-main-item-img">
+                        <img src="./image/chanping-1.jpg" alt="产品名称" />
+                      </div>
+
+                      <div class="light-en-main-item-text">
+                        <a>产品名称</a>
+                      </div>
+                    </a>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="chanping-detail" id="inquiry">
+            <h2>
+              <span>发送询盘</span>
+            </h2>
+
+            <div class="message-main">
+              <script src="./js/feedback.js"></script>
+            </div>
+          </div>
+
+          <hr />
+
+          <div class="chanping-article-turnpage">
+            <div class="chanping-article-turnpage-main">
+              <div class="turnpage-main-prev">
+                <span>上一个：</span>
+                <a href="./chanping-1.html">产品名称</a>
+              </div>
+              <div class="turnpage-main-next">
+                <span>下一个：</span>
+                <a href="./chanping-1.html">产品名称</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
-
-
-
 
     <footer>
-        <div class="footer">
-            <div class="footer-top">
-                
-
-                <div class="footer-nav">
-                    <div class="footer-nav-detail">
-                        <h3>快速导航</h3>
-                        <ul>    
-                            <li><a href="">城市照明</a></li>
-                            <li><a href="">景观照明</a></li>
-                            <li><a href="">市政照明</a></li>
-                            <li><a href="">文旅照明</a></li>
-                            <li><a href="">桥梁照明</a></li>
-                            <li><a href="">商业照明</a></li>
-                        </ul>
-                    </div>
-
-                </div>
-
-                <div class="footer-main">
-                    <div class="footer-main-detail">
-                        <h3>联系我们</h3>
-                        <ul>
-                            <li>地址：某某市某某区某某商务营运中心x号楼xF</li>
-                            <li>总机：0086-592-1234567</li>
-                            <li>传真：0086-592-1234567</li>
-                        </ul>
-                    </div>
-                </div>
-
-
-                <div class="footer-slide">
-                    <div class="footer-slide-detail">
-                            <img src="./image/footer-1.png" alt="二维码">
-                    </div>
-                </div>
+      <div class="footer">
+        <div class="footer-top">
+          <div class="footer-nav">
+            <div class="footer-nav-detail">
+              <h3>快速导航</h3>
+              <ul>
+                <li><a href="">城市照明</a></li>
+                <li><a href="">景观照明</a></li>
+                <li><a href="">市政照明</a></li>
+                <li><a href="">文旅照明</a></li>
+                <li><a href="">桥梁照明</a></li>
+                <li><a href="">商业照明</a></li>
+              </ul>
             </div>
-       
-            <div class="footer-bottom">
-                <p>
-                    <span>版权所有</span>
-                    <a>某某技术股份有限公司</a>
-                    <a>闽ICP备12345678号</a>
-                </p>
+          </div>
+
+          <div class="footer-main">
+            <div class="footer-main-detail">
+              <h3>联系我们</h3>
+              <ul>
+                <li>地址：某某市某某区某某商务营运中心x号楼xF</li>
+                <li>总机：0086-592-1234567</li>
+                <li>传真：0086-592-1234567</li>
+              </ul>
             </div>
+          </div>
 
-           
-
+          <div class="footer-slide">
+            <div class="footer-slide-detail">
+              <img src="./image/footer-1.png" alt="二维码" />
+            </div>
+          </div>
         </div>
+
+        <div class="footer-bottom">
+          <p>
+            <span>版权所有</span>
+            <a>某某技术股份有限公司</a>
+            <a>闽ICP备12345678号</a>
+          </p>
+        </div>
+      </div>
     </footer>
 
-
     <div id="test" class="totop">
-        <a>
-            <i><img src="./image/totop.png" alt="回到顶部"></i>
-        </a>
+      <a>
+        <i><img src="./image/totop.png" alt="回到顶部" /></i>
+      </a>
     </div>
- 
-    
-    <script src="./js/nav.js"></script>
-</body>
+    <script src="./js/main.js"></script>
+  </body>
 </html>
